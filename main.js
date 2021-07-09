@@ -18,7 +18,7 @@ backgroundMovement.currentTime =
 
 setInterval(() => {
 	if (backgroundMovement.playbackRate > 0.4) {
-		backgroundMovement.playbackRate *= 0.9;
+		backgroundMovement.playbackRate *= 0.5;
 	}
 }, 3000);
 
