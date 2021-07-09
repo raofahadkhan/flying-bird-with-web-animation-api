@@ -27,4 +27,4 @@ jobs:
         run: sudo npm install --global surge
         
       - name: Deploy to Surge
-        run: surge ./build flyingbird-rao.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge . flyingbird-rao.surge.sh --token ${{ secrets.SURGE_TOKEN }}
